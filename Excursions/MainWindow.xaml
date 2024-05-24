@@ -8,9 +8,10 @@
         Title="Excursions" Icon="Images/icon.png" Width="900" Height="600" Closing="Window_Closing">
         
     <Grid>
-        <ListBox x:Name="ExcursionsListBox" HorizontalAlignment="Left" Margin="10,5,10,0" VerticalAlignment="Top" Width="863" Height="480"/>
-        <Button x:Name="AddButton" Content="Add" Margin="0,0,150,18" Click="AddButton_Click" Style="{DynamicResource ButtonStyle}"/>
-        <Button x:Name="EditButton" Content="Edit" Margin="150,0,0,18" Click="EditButton_Click" Style="{DynamicResource ButtonStyle}"/>
+        <ListBox x:Name="ExcursionsListBox" FontSize="16" HorizontalAlignment="Left" Margin="10,5,10,0" VerticalAlignment="Top" Width="863" Height="480"/>
+        <Button x:Name="AddButton" Content="Add" Margin="0,0,280,18" Style="{DynamicResource ButtonStyle}" Click="AddButton_Click"/>
+        <Button x:Name="EditButton" Content="Edit" Margin="280,0,280,18" Style="{DynamicResource ButtonStyle}"  Click="EditButton_Click"/>
+        <Button x:Name="DeleteButton" Content="Delete" Margin="280,0,0,18" Style="{DynamicResource ButtonStyle}"  Click="DeleteButton_Click"/>
     </Grid>
     
     <Window.Resources>

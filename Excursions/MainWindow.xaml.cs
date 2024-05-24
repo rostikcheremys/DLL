@@ -56,6 +56,16 @@ namespace Excursions
             }
         }
 
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (ExcursionsListBox.SelectedItem != null)
+            {
+                int selectedIndex = ExcursionsListBox.SelectedIndex;
+                _tour.Excursions.RemoveAt(selectedIndex);
+                UpdateExcursionList();
+            }
+        }
+
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             SerializeTourToJson(_tour, JsonFilePath);
