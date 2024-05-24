@@ -35,8 +35,7 @@
 
         public override bool Equals(object? obj)
         {
-            if (obj == null || GetType() != obj.GetType())
-                return false;
+            if (obj == null || GetType() != obj.GetType()) return false;
 
             Tour other = (Tour)obj;
             return _startDate == other._startDate && _excursions.SequenceEqual(other._excursions);
@@ -49,7 +48,7 @@
 
         public string GetFullInformation()
         {
-            var excursionDetails = string.Join(", ", _excursions);
+            string excursionDetails = string.Join(", ", _excursions);
             return $"Tour starts on {_startDate.ToShortDateString()}: {excursionDetails}";
         }
 
@@ -64,5 +63,4 @@
             return GetShortInformation();
         }
     }
-
 }

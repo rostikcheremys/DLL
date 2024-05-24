@@ -11,21 +11,21 @@
         <ComboBox x:Name="FormOfConductComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,10,0,0"/>
 
         <Label Content="First Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
-        <TextBox x:Name="FirstNameTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,50,0,0"/>
+        <TextBox x:Name="FirstNameTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,50,0,0" TextChanged="FirstNameTextBox_TextChanged"/>
 
         <Label Content="Last Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0"/>
-        <TextBox x:Name="LastNameTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,90,0,0" />
+        <TextBox x:Name="LastNameTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,90,0,0" TextChanged="LastNameTextBox_TextChanged"/>
 
         <Label Content="Location:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0"/>
-        <TextBox x:Name="LocationTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,130,0,0" />
+        <TextBox x:Name="LocationTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,130,0,0" TextChanged="LocationTextBox_TextChanged"/>
 
         <Label Content="Price:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0"/>
-        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,170,0,0" PreviewTextInput="NumericTextBox_PreviewTextInput"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,170,0,0" TextChanged="PriceTextBox_TextChanged" PreviewTextInput="NumericTextBox_PreviewTextInput"/>
 
         <Label Content="Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,0,0"/>
         <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="120,210,0,0" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
 
         <Button Content="Save and Close" Click="SaveAndCloseButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,250,0,0" />
-        <Button Content="Cancel and Close" Click="CancelAndCloseButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="120,250,0,0" />
+        <Button Content="Cancel and Close" Click="CancelAndCloseButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="120,250,0,0"/>
     </Grid>
 </Window>

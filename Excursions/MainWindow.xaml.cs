@@ -1,14 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Windows;
+using Newtonsoft.Json;
 using Excursions.Converters;
 using Excursions.DataTransferObject;
-using Newtonsoft.Json;
 
 namespace Excursions
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow 
     {
         private readonly Tour _tour;
         private const string JsonFilePath = "excursions.json";
@@ -23,6 +21,7 @@ namespace Excursions
         private void UpdateExcursionList()
         {
             ExcursionsListBox.Items.Clear();
+            
             foreach (var excursion in _tour.Excursions)
             {
                 ExcursionsListBox.Items.Add(excursion.ToString());
@@ -31,9 +30,10 @@ namespace Excursions
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            var organizer = new Organizer("New", "Organizer");
-            var excursion = new Excursion(organizer, FormOfConduct.BusExcursion, 10, "A", DateTime.Now);
-            var excursionWindow = new ExcursionWindow(excursion);
+            Organizer organizer = new Organizer("New", "Organizer");
+            Excursion excursion = new Excursion(organizer, FormOfConduct.BusExcursion, 10, "A", DateTime.Now);
+            ExcursionWindow excursionWindow = new ExcursionWindow(excursion);
+            
             if (excursionWindow.ShowDialog() == true)
             {
                 _tour.AddExcursion(excursion);
@@ -45,9 +45,10 @@ namespace Excursions
         {
             if (ExcursionsListBox.SelectedItem != null)
             {
-                var selectedIndex = ExcursionsListBox.SelectedIndex;
-                var excursion = _tour.Excursions[selectedIndex];
-                var excursionWindow = new ExcursionWindow(excursion);
+                int selectedIndex = ExcursionsListBox.SelectedIndex;
+                Excursion excursion = _tour.Excursions[selectedIndex];
+                ExcursionWindow excursionWindow = new ExcursionWindow(excursion);
+                
                 if (excursionWindow.ShowDialog() == true)
                 {
                     UpdateExcursionList();

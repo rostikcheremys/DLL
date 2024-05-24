@@ -16,6 +16,7 @@
         public int CompareTo(Organizer? other)
         {
             if (other == null) return 1;
+            
             int result = String.Compare(_lastName, other._lastName, StringComparison.Ordinal);
             return result == 0 ? String.Compare(_firstName, other._firstName, StringComparison.Ordinal) : result;
         }

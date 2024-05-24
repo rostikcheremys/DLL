@@ -4,7 +4,7 @@ namespace Excursions.Converters
 {
     public static class Converters
     {
-        public static OrganizerDTO ToDTO(this Organizer organizer)
+        private static OrganizerDTO ToDTO(this Organizer organizer)
         {
             return new OrganizerDTO
             {
@@ -13,12 +13,12 @@ namespace Excursions.Converters
             };
         }
 
-        public static Organizer FromDTO(this OrganizerDTO dto)
+        private static Organizer FromDTO(this OrganizerDTO dto)
         {
-            return new Organizer(dto.FirstName, dto.LastName);
+            return new Organizer(dto.FirstName!, dto.LastName!);
         }
 
-        public static ExcursionDTO ToDTO(this Excursion excursion)
+        private static ExcursionDTO ToDTO(this Excursion excursion)
         {
             return new ExcursionDTO
             {
@@ -26,14 +26,14 @@ namespace Excursions.Converters
                 FormOfConduct = excursion.FormOfConduct,
                 Price = excursion.Price,
                 Location = excursion.Location,
-                Date = excursion.Date // змінив крапку на кому
+                Date = excursion.Date
             };
         }
 
-        public static Excursion FromDTO(this ExcursionDTO dto)
+        private static Excursion FromDTO(this ExcursionDTO dto)
         {
             return new Excursion(
-                dto.Organizer.FromDTO(),
+                dto.Organizer!.FromDTO(),
                 dto.FormOfConduct,
                 dto.Price,
                 dto.Location,
@@ -53,7 +53,7 @@ namespace Excursions.Converters
         public static Tour FromDTO(this TourDTO dto)
         {
             Tour tour = new Tour(dto.StartDate);
-            tour.Excursions.AddRange(dto.Excursions.Select(e => e.FromDTO()));
+            tour.Excursions.AddRange(dto.Excursions!.Select(e => e.FromDTO()));
             return tour;
         }
     }

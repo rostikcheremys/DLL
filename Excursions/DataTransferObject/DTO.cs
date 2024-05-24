@@ -11,7 +11,7 @@ public class ExcursionDTO
     public OrganizerDTO? Organizer { get; set; }
     public FormOfConduct FormOfConduct { get; set; }
     public int Price { get; set; }
-    public string Location { get; set; }
+    public string? Location { get; set; }
     public DateTime Date { get; set; }
 }
 

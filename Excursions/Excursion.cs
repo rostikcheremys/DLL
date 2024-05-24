@@ -19,19 +19,14 @@
             return Date.CompareTo(other.Date);
         }
 
-        public override string ToString()
-        {
-            return $"{Location} - {FormOfConduct} - ${Price} - {Date:d} by {Organizer.FirstName} {Organizer.LastName}";
-        }
-
         public override bool Equals(object? obj)
         {
             if (obj is Excursion other)
             {
-                return Organizer.Equals(other.Organizer) &&
-                       FormOfConduct == other.FormOfConduct &&
-                       Price == other.Price &&
-                       Location == other.Location &&
+                return Organizer.Equals(other.Organizer) && 
+                       FormOfConduct == other.FormOfConduct && 
+                       Price == other.Price && 
+                       Location == other.Location && 
                        Date == other.Date;
             }
             return false;
@@ -40,6 +35,11 @@
         public override int GetHashCode()
         {
             return HashCode.Combine(Organizer, FormOfConduct, Price, Location, Date);
+        }
+        
+        public override string ToString()
+        {
+            return $"{Location} - {FormOfConduct} - ${Price} - {Date:d} by {Organizer.FirstName} {Organizer.LastName}";
         }
     }
 }
