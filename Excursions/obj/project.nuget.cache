@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xlhu90p+yyOY8QWGhte5j613YKYd8mXTH/xAlHefpKlfKIYxJm4aEqnjiDOvvwUgo/Uuoxqj85ASNTnoPbTwZA==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\OOP\\DLL\\Excursions\\Excursions\\Excursions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rosti\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

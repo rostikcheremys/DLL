@@ -1,0 +1,25 @@
+{
+  "StartDate": "2024-05-24T22:23:41.5948959+03:00",
+  "Excursions": [
+    {
+      "Organizer": {
+        "FirstName": "New",
+        "LastName": "Organizer"
+      },
+      "FormOfConduct": 0,
+      "Price": 10,
+      "Location": "B",
+      "Date": "2024-05-24T00:00:00"
+    },
+    {
+      "Organizer": {
+        "FirstName": "New",
+        "LastName": "Organizer"
+      },
+      "FormOfConduct": 0,
+      "Price": 10,
+      "Location": "A",
+      "Date": "2024-05-24T00:00:00"
+    }
+  ]
+}
