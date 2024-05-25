@@ -16,6 +16,9 @@ namespace Excursions
             InitializeComponent();
             _tour = File.Exists(JsonFilePath) ? DeserializeTourFromJson(JsonFilePath) : new Tour(DateTime.Now);
             UpdateExcursionList();
+            
+            MaxWidth = MinWidth = 900;
+            MaxHeight = MinHeight = 600;
         }
 
         private void UpdateExcursionList()

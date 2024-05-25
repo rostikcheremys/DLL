@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Excursions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+721ed1f7fb665ddf8e0ea3c82eae51e1ad5a431d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cd19f8c7d9dc92f43ab745c42ee16845a8cff9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Excursions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Excursions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

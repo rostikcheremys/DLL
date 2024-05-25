@@ -16,7 +16,10 @@ namespace Excursions
             _excursion = excursion;
             _originalExcursion = (Excursion)excursion.Clone();
             FormOfConductComboBox.ItemsSource = Enum.GetValues(typeof(FormOfConduct));
-            PopulateFields(); 
+            PopulateFields();
+
+            MaxWidth = MinWidth = 400;
+            MaxHeight = MinHeight = 380;
         }
 
         private void PopulateFields()
@@ -147,6 +150,7 @@ namespace Excursions
                 if (!_excursion.Equals(_originalExcursion))
                 {
                     MessageBoxResult result = MessageBox.Show("Do you want to keep the changes?", "Confirmation", MessageBoxButton.YesNoCancel);
+                    
                     if (result == MessageBoxResult.Yes)
                     {
                         SaveExcursionData();
