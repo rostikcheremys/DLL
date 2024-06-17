@@ -14,7 +14,7 @@ namespace Excursions
         public MainWindow()
         {
             InitializeComponent();
-            _tour = File.Exists(JsonFilePath) ? DeserializeTourFromJson(JsonFilePath) : new Tour(DateTime.Now);
+            _tour = File.Exists(JsonFilePath) ? DeserializeFromJson(JsonFilePath) : new Tour(DateTime.Now);
             UpdateExcursionList();
             
             MaxWidth = MinWidth = 900;
@@ -71,17 +71,17 @@ namespace Excursions
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            SerializeTourToJson(_tour, JsonFilePath);
+            SerializeToJson(_tour, JsonFilePath);
         }
 
-        private void SerializeTourToJson(Tour tour, string filePath)
+        private void SerializeToJson(Tour tour, string filePath)
         {
             TourDTO dto = tour.ToDTO();
             string json = JsonConvert.SerializeObject(dto, Formatting.Indented);
             File.WriteAllText(filePath, json);
         }
 
-        private Tour DeserializeTourFromJson(string filePath)
+        private Tour DeserializeFromJson(string filePath)
         {
             string json = File.ReadAllText(filePath);
             TourDTO? dto = JsonConvert.DeserializeObject<TourDTO>(json);

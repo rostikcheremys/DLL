@@ -4,7 +4,301 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b034ad-20ab-4330-b11c-e4f0f633716d" name="Changes" comment="">
+    <list default="true" id="b7b034ad-20ab-4330-b11c-e4f0f633716d" name="Changes" comment="adding max and min size window">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DLL/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_0zg0pcsh_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1keowrqj_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_1losttu0_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_21tsllbk_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_23n5sirs_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2ghdbqzm_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_2hemucdy_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_3pdudz4x_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_54hsx23g_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_5myxx2x5_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a13dnpzy_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_a3neg02y_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ce3p3pcx_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_cwf2rdo2_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_d4zjuref_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_dgdb0e0k_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fbwwsmoy_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_fs51tza0_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_gmy40ceg_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hkowgsvv_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hraajztq_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_hyjq4dyr_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i1dwap43_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_i4id3ke3_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_imp4zsb0_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_juenugh0_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_lgxyha0m_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_mhxry4vm_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_njh5c15s_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_p1m5t1fg_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pafxxusv_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_pgxlq4g1_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qg5ff4a2_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_qwwukjbq_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r1wony2m_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_r5kzy4bj_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rd2crkv5_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rkrzqu31_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rwu4bbtf_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_rzwavfhh_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_s3angrrf_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_tfshv5rc_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_u151wjvu_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ubq13xsw_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xnfyfus4_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xpennsem_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_xsmpppau_wpftmp.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excursions/obj/Debug/net8.0-windows/Excursions_ylaxvsv0_wpftmp.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Excursions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Excursions/bin/Debug/net8.0-windows/Excursions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Excursions/bin/Debug/net8.0-windows/Excursions.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Excursions/bin/Debug/net8.0-windows/Excursions.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Excursions/bin/Debug/net8.0-windows/Excursions.exe" afterDir="false" />
@@ -28,6 +322,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Excursions/bin/Debug/net8.0-windows/Excursions.deps.json" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -95,10 +390,27 @@
       <workItem from="1716577110200" duration="3267000" />
       <workItem from="1716580427937" duration="833000" />
       <workItem from="1716592050140" duration="281000" />
+      <workItem from="1716635713931" duration="325000" />
+      <workItem from="1716636053262" duration="318000" />
+      <workItem from="1718634148678" duration="662000" />
     </task>
+    <task id="LOCAL-00001" summary="adding max and min size window">
+      <option name="closed" value="true" />
+      <created>1716636019311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716636019311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding max and min size window" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding max and min size window" />
   </component>
 </project>
